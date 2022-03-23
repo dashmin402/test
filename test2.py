@@ -7,5 +7,5 @@ print('a =',a)
 
 print('c =',c)
 
-print(math.sin(a)+2021)
+print(math.sin(a)+20)
 
