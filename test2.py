@@ -1,8 +1,11 @@
 import cmath as math
+
 a = math.pi
 b = math.e
-c = a*b
+c = 0
 print('a =',a)
-print('b =',b)
+
 print('c =',c)
+
+print(math.sin(a)+2020)
 
