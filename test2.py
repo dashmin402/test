@@ -1,11 +1,11 @@
 import cmath as math
-
+from turtle import clear
+import cv2
 a = math.pi
 b = math.e
-c = 0
-print('a =',a)
-
+c = a*b
+print('a + b = ',a+b)
 print('c =',c)
-
-print(math.sin(a)+20)
-
+img = cv2.imread('test.jpeg')
+cv2.imshow('test.jpeg', img)
+cv2.waitKey(0)
